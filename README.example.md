@@ -26,7 +26,7 @@ This repository does **not** contain any game assets or assembly whatsoever. An 
 
 Supported versions:
 
-- `GAMEID`: Rev 0 (USA)
+- `GTEE01`: Rev 0 (USA)
 
 Dependencies
 ============
@@ -79,7 +79,7 @@ Building
   git clone https://github.com/my/repo.git
   ```
 
-- Copy your game's disc image to `orig/GAMEID`.
+- Copy your game's disc image to `orig/GTEE01`.
   - Supported formats: ISO (GCM), RVZ, WIA, WBFS, CISO, NFS, GCZ, TGC
   - After the initial build, the disc image can be deleted to save space.
 
@@ -89,7 +89,7 @@ Building
   python configure.py
   ```
 
-  To use a version other than `GAMEID` (USA), specify it with `--version`.
+  To use a version other than `GTEE01` (USA), specify it with `--version`.
 
 - Build:
 

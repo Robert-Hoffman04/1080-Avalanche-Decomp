@@ -15,7 +15,7 @@ This repository will be used to build and store the CI build container.
 
 1. [Create a **private** repository from `encounter/dtk-template-build`](https://github.com/new?template_name=dtk-template-build&template_owner=encounter). A common name is your project's repository name with `-build` appended. For example, `tww-build`.
 
-2. Once the repository is created, add your game's assets to the `orig/GAMEID` directory. (Replace `GAMEID` with your game's ID, matching the `orig` layout in your main repository.)  
+2. Once the repository is created, add your game's assets to the `orig/GTEE01` directory. (Replace `GTEE01` with your game's ID, matching the `orig` layout in your main repository.)  
     **Only include game files necessary for the build**, such as `sys/main.dol` and any `.rel` or `.sel` files.
 
 3. Once the build container action completes, visit the package settings:  
@@ -31,7 +31,7 @@ This repository will be used to build and store the CI build container.
 
 2. In `build.yml`, update the `container:` to point to the new [build image](#build-repository).
 
-3. In `build.yml`, replace `GAMEID` with your game's ID. (Or list of IDs, for multi-version support.)
+3. In `build.yml`, replace `GTEE01` with your game's ID. (Or list of IDs, for multi-version support.)
 
 4. Commit and push the changes to your repository.
 
